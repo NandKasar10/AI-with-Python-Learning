@@ -1,0 +1,5 @@
+Types of numbers :-
+integer, 
+boolean, 
+real (floating numbers),
+complex number (2+3j)

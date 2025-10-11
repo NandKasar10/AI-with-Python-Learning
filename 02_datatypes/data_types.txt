@@ -1,0 +1,18 @@
+What is Objects ?
+=> everything is object in a python code file
+=> every object has its unique identity
+=> every object has its unique type
+=> every object has its value
+
+Mutable and Immutable ?
+mutable == changeble
+immutable == not changeble
+
+Object's identity helps us to find out is it mutable or not
+
+NOTE : dont use value while classifying any object as mutable or not
+
+even numbers in python is immutable
+if we create two variable with same name then it will create two number memory 
+
+we can say we cant change number but we can change the reference

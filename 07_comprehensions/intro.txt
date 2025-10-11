@@ -1,0 +1,13 @@
+Comprehension are a concise way to create lists, sets, dictionaries or generators in Python using a single line of code.
+
+Where are they are used in Real Life ?
+=> used to *filter items, *transforming items, *create a new collection and *flatten nested structures
+
+what purposes do they serve ?
+=> *Cleaner code and *faster execution
+
+Types of Comprehension :-
+1)List
+1)Set
+1)Dictionary
+1)Generators

@@ -1,0 +1,40 @@
+why we have the virtual environment?
+--> maanle samajh tereko dusra codebase like library apne code mai use karna hai toh do tareeka hai =>
+1)either tu depedency dede like library ko whole system mai install krke code files ko access dede
+2) yaa fhir tu kya kar har file mai library ke code ko import kara ke use kar (jiska hota hai meaning virtual environment)
+
+1st wale method mai agar library mai kuch update aaya toh ho skata hai ki hamare cpdefiles mai error aa jaaye aur usko update karna pade sabko
+
+but 2nd wala use kare toh sab file ka virtual environment hone karan jisko update karna hai ussi mai library update kiye jisme neccesary nhi hai waha nhi kiye
+
+creating a virtual environment :-
+->select a folder and open integrated terminal init
+->after that write "pyhton -m venv <file name usually .venv>"
+
+To use vitual environment python simply on that folder in integrated terminal before anything write "<file name here .venv>/Scripts/activate"
+
+this is done to install third party module like web dev module => flask and for web requests => requests
+
+so create a .txt file with all the modules required if want specify the versions
+
+then in virtual environment terminal write "pip install -r requirements.txt"
+
+
+----------extra_information-------------------
+🧠 What Is a Virtual Environment?
+A virtual environment in Python is an isolated workspace that allows you to manage dependencies (libraries, packages) for a specific project without affecting other projects or the system-wide Python installation.
+It’s like giving each project its own sandbox to play in, with its own version of Python packages.
+
+✅ Why Use Virtual Environments?
+Here are the key benefits:
+- Isolation of Dependencies
+Each project can have its own versions of libraries. No more conflicts between projects needing different versions of the same package.
+- Avoids System Pollution
+Keeps your global Python installation clean and untouched. You won’t accidentally break other projects or system tools.
+- Reproducibility
+You can freeze the environment (using requirements.txt) so others can recreate the exact same setup. This is crucial for collaboration and deployment.
+- Safe Experimentation
+Try out new packages or versions without risking your main setup. If something breaks, it’s contained.
+- Simplifies Deployment
+When deploying to production or sharing with teammates, you can ensure the environment behaves exactly as expected.
+---------------------------------------------

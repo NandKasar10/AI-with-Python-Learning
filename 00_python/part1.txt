@@ -1,0 +1,34 @@
+what is programming ?
+=> giving instructions to comp.(that they understand)
+
+making a chai program :-
+1) gather water
+ gather milk
+ gather tea leaves
+ gather sugar
+ gather utensils
+
+2) enough water
+ clean cups
+
+3) then steps of making a tea(methods/functions) 
+check if kettle has water
+plug in kettle
+boil water
+get clean cups
+add tea leaves and sugar and milk
+pour boiled tea into cups
+stir and serve
+
+NOTE :- in the intro.py its whole function based code is written in python
+
+onto our code base where we create many methods or properties(functions) as a whole bunch it is known as => "Class"
+
+so basically a code is a  mixture of some class, object, properties and some methods(actions).
+
+why Python?
+-> Portable
+-> Readable 
+-> Productive
+-> Standard Library
+-> Flexible and Multi-use

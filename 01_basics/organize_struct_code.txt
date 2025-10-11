@@ -1,0 +1,42 @@
+how do we actually structure/organize our python code ?
+=> 
+let we have a code for running chai_shop :-
+chai_shop/
+->run.py(starts the app)
+processing/
+->chai.py(all the functional part like libraries)
+utils/
+->__init__.py
+
+modules = all python code files are known as modules
+
+packages = any folder where __init__.py is there
+
+-------------------- PEP8 & Zen -------------------------
+*PEP8 => Style Guide for writing a python program
+-> four spaces and no tabs 
+-> meaningfull names of the files
+-> formatters more diff colors 
+-> and many more on the documentation..........
+
+*Zen =>
+(go to terminal type python then type import this)
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
