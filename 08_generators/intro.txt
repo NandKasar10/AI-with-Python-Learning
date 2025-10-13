@@ -1,0 +1,5 @@
+Generators =>
+1)You save memory
+2)You don't want the results immediately
+3)lazy evaluation
+3)uses yield keyword

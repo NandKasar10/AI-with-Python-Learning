@@ -1,0 +1,21 @@
+Concurrency => 
+    means doing multiple tasks at once, here you can return the response (whole result does not depend on the process of doing)
+
+    modules to study in this :- 
+    * threading.Thread
+    * asyncio
+
+
+Parallelism =>
+    means running multiple task at the same time, here because of some lazy core operation it hinders the other's core work (therefore whole result depends on if the divided task in each core is carried out or not)
+
+    modules to study in this :- 
+    * multiprocessing.Process
+    * concurrent.futures.ProcessPoolExecutor
+    
+
+GIL => (Global Interpreter Lock)
+    when two threads are trying to access/manipulate same memory then there is race condition between them and python uses GIL which provides simple "Mutex" so thats no two threads can change the memory at the same time
+
+mutex => 
+    basically hamlog ke ek thread ko mutex mil jaayega kuch time ke liye jisse ki jab tk uske pass hai mutex woh lock ho jaayega aur koi bhi thread uss memory ko access yaa manipulate nhi kr paayega bajaye jiske pass mutex hai
