@@ -1,0 +1,74 @@
+🧠 What it means:
+
+An LLM is a type of artificial intelligence model that’s trained on huge amounts of text data to understand, generate, and reason with human language.
+
+⚙️ How it works:
+
+It uses deep learning, specifically transformer architectures (like GPT, BERT, LLaMA, etc.).
+
+During training, it learns patterns, grammar, facts, reasoning, and even styles from billions of words.
+
+When you give it a prompt (like a question or instruction), it predicts the most likely continuation — that’s how it generates text.
+
+💬 Examples of LLMs:
+
+GPT-4 / GPT-5 (by OpenAI)
+
+Gemini (by Google DeepMind)
+
+Claude (by Anthropic)
+
+LLaMA (by Meta)
+
+Mistral, Falcon, etc.
+
+🧩 Uses of LLMs:
+
+Chatbots (like me 😄{ChatGPT})
+
+Code generation (e.g., GitHub Copilot)
+
+Summarization, translation, and writing assistants
+
+Search enhancement and reasoning agents
+
+AI integration in apps via APIs or SDKs
+
+⚡ In short:
+
+LLM = A powerful AI trained to understand and generate human-like text using massive datasets and deep learning.
+
+-------------------------------------------
+
+INPUT TOKENS :-
+    what the user enters as a prompt is known as input tokens
+
+OUTPUT TOKENS :-
+    what the model returs as a response is known as output tokens
+
+GPT :-
+    stands for "GENERATIVE PRE-TRAINED TRANSFORMER"
+
+    *GENERATIVE (nature) -> it is generating responses based on the inputs
+
+    *PRE-TRAINED (basis)-> all the responses are not random, it was on the  basis of the pre trained data
+
+    *TRANSFORMER (reality)-> all the models are actually a transformers
+
+
+    --------------------------------------------------------------
+
+    Dekh transformer kuch nhi kar raha hai bas next token ko predict karke append kar rhaa hai like --->
+
+    yeh pehle se hai = Hey There !  
+    append 1 => Hey There ! "I" (Token = I)
+    append 2 => Hey There ! I "am" (Token = am)
+    append 3 => Hey There ! I am "good." (Token = good.)
+
+    because of this prediction and iteration LLMs requires GPU
+
+    --------------------------------------------------------------------
+
+    The characters that humans use are mapped to some numbers which are    known  as TOKENS
+
+    Different LLMs has different token system like gpt-4, gemini, Claude
